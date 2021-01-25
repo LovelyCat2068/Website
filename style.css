@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 600px;
+    color: #fa9d9d;
+    top: 0;
+    bottom:0;
+    right:0;
+    left:0;
+    opacity: 0.83;
+    background: linear-gradient(#9fe5f8 0%, #0ce8c7 100%);
+    display:table;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+.inner div{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.TBL{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+#name{
+ 
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+}
+
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p{
+    max-width: 600px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.line{
+    height: 6px;
+    background: black;
+    width: 70px;
+    margin:  8px auto;
+}
+
+.menu{
+    z-index: 6;
+    list-style: none;
+    position: absolute;
+    font-family:'Potta One', cursive;
+    top: 10px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.links{
+    float: left;
+    color: #f2fc96;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: 'Gorditas', cursive;
+}
+
+.links:hover{
+    background-color: #04e0c3;
+}
