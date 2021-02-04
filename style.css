@@ -78,11 +78,10 @@ p{
 
 .menu{
     z-index: 6;
-    list-style: none;
     position: fixed;
     font-family:'Potta One', cursive;
-    top: 10px;
-    right: 50px;
+    top: 0px;
+    margin-top: 0px;
     cursor: pointer;
 }
 
@@ -99,6 +98,8 @@ p{
 
 .links:hover{
     background-color: #04e0c3;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 html{
@@ -112,4 +113,26 @@ a{
 }
 .a{
     font-size: 21px;
+}
+
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline!important;
+    color: aliceblue !important;
+}
+
+#contacts{
+    background-color: firebrick;
+}
+#contacts iframe{
+    width: 100%;
+}
+
+.Contacts_line h3{
+    display: inline;
+}
+
+.Contacts_line a{
+    color: white;
+    text-shadow: none;
 }
