@@ -71,7 +71,7 @@ p{
     margin:  8px auto;
 }
 
-#myNavbar1{
+.myNavbar1{
     z-index: 99;
     position: sticky;
     font-family:'Potta One', cursive;
@@ -115,9 +115,7 @@ a{
     color: aliceblue !important;
 }
 
-#contacts{
-   
-}
+
 #contacts iframe{
     width: 100%;
 }
