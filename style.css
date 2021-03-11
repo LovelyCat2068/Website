@@ -5,20 +5,15 @@ body{
 }
 
 #welcome{
-    position: absolute;
-    overflow: hidden;
-    height: 600px;
     color: #fa9d9d;
-    top: 0;
+    top:0;
     bottom:0;
-    right:0;
-    left:0;
     opacity: 0.83;
     background: linear-gradient(#9fe5f8 0%, #0ce8c7 100%);
     display:table;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 9;
 }
 
 
@@ -76,13 +71,11 @@ p{
     margin:  8px auto;
 }
 
-.menu{
-    z-index: 6;
-    position: fixed;
+#myNavbar1{
+    z-index: 99;
+    position: sticky;
     font-family:'Potta One', cursive;
-    top: 0px;
-    margin-top: 0px;
-    cursor: pointer;
+    top: 0;
 }
 
 .links{
@@ -94,6 +87,7 @@ p{
     padding-right: 9px;
     font-size: 20px;
     font-family: 'Gorditas', cursive;
+    list-style: none;
 }
 
 .links:hover{
@@ -122,17 +116,22 @@ a{
 }
 
 #contacts{
-    background-color: firebrick;
+   
 }
 #contacts iframe{
     width: 100%;
 }
 
-.Contacts_line h3{
+.Contacts_1 h3{
     display: inline;
+    font-size: 40px;
 }
 
-.Contacts_line a{
+.Contacts_1 a{
     color: white;
     text-shadow: none;
+}
+
+input{
+    background-color: #FF2400;
 }
